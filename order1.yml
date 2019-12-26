@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: pro
 ---
 spring:
   profiles: dev
@@ -39,9 +39,9 @@ PRODUCT:
 spring:
   profiles: test
 server:
-  port: 8084
+  port: 8085
 ---
 spring:
   profiles: pro
 server:
-  port: 8005
+  port: 8006
